@@ -1,0 +1,96 @@
+body {
+    border-left: 5px solid lightgray;
+    height: 100%;
+     min-height: 100%;
+     /* max-width: 1000px; */
+     font-family: sans-serif;
+    padding-left: 2rem;
+}
+
+.title {
+    display: flex;
+    color: tomato;
+    font-weight: lighter;
+    font-size: 120px;
+    margin-left: 4rem;
+}
+
+.sub-title {
+    display: flex;
+    color: black;
+    font-weight:lighter;
+    font-size: 70px;
+    margin-left: 4rem;
+}
+
+li {
+    display: flex;
+    display: inline-block;
+    font-size: 30px;
+    justify-content: space-between;
+    padding : 0 40px 0 40px;
+}
+
+a {
+    color: gray;
+}
+
+time {
+    display: flex;
+    color: lightgray;
+    font-weight:lighter;
+    font-size: 50px;
+    margin-left: 5rem;  
+    margin-top: 8rem;
+}
+
+.article1{
+    display: flex;
+    color: black;
+    font-weight:lighter;
+    font-size: 90px;
+    margin-left: 5rem;
+    margin-top: 100px;
+}
+
+img {
+    display: flex;
+    align-self: center;
+    width: 75%;
+    margin-left: 5rem;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-left: 5rem;
+    font-size: xx-large;
+    font-weight: lighter;
+    color: gray;
+}
+
+h4 {
+    display: flex;
+    font-size: 30px;
+    color: tomato;
+    margin-left: 80rem;
+}
+
+hr {
+    display: flex;
+    width: 77%;
+   margin-left: 54px;
+}
+
+.footer > a {
+    color: tomato
+
+}
+
+h3 {
+    display: flex;
+    color: lightgray;
+    font-weight:lighter;
+    font-size: 50px;
+}
